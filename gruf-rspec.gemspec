@@ -41,6 +41,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '>= 0.82'
   spec.add_development_dependency 'simplecov', '>= 0.15'
 
-  spec.add_runtime_dependency 'gruf', '~> 2.5', '>= 2.5.1'
+  spec.add_runtime_dependency 'gruf' # , '~> 2.5', '>= 2.5.1'
   spec.add_runtime_dependency 'rspec', '>= 3.8'
 end
